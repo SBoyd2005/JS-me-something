@@ -1,8 +1,9 @@
-html, body {margin: auto;
-background-image: 20180906_170505.jpg;
+Header {color:black;
+        text-align:center;}
+.h4 {color:grey;
+text-align:center;
+font-style:italic;}
+.body {background-image: url(Golden.jpg);
+    background-size: 100%, cover;
 background-repeat: no-repeat;
-background-attachment: fixed;}
-
-.header {text-align: center
-    font-family: "Times New Roman", Times, Serif
-    ;}
+background-position: fixed;}
