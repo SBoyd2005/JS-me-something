@@ -1,23 +1,30 @@
-html{border:solid orange 3px;}
-Header {color:white;
+html{border:solid yellow 3px;}
+header {color:yellow;
         text-align:center;}
-ul {color: white;
-margin: auto; padding: 0;}
+.body {background-image: url(Golden.jpg);
+       background-size: 100% 100%;
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       color:white;}
 h4 {color:white;
 text-align:center;
 font-style:italic;}
-.body {background-image: url(Golden.jpg);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-background-repeat: no-repeat;
-color:white;}
 .background {text-align:center;}
-a {color:orange;}
-p {font-size: 20px;}
-img {margin:auto;
-display:block;
-border:solid orange 3px;}
+a {color:yellow;}
+p {font-size: 20px;
+margin: 30px;
+padding: 5px;}
+img {border:solid yellow 3px;
+margin: auto;
+display:block;}
 h3 {text-align:center;
 font-size:24px;
-color:orange;}
-iframe {margin: auto; display: block; border: solid orange 3px;}
+color:yellow;
+padding: 15px;}
+iframe {margin: auto; display: block; border: solid yellow 3px; padding: 0; margin: auto;}
+.horizontal-list{
+    top: 0;
+    width: 100%;
+    margin; 25px;
+    list-style-type: none;
+}
