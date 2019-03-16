@@ -1,16 +1,38 @@
-html{border:solid yellow 3px;}
+html{border:solid orangered 3px;}
 header {color:yellow;
         text-align:center;}
 .body {background-image: url(Golden.jpg);
        background-size: 100% 100%;
        background-attachment: fixed;
        background-repeat: no-repeat;
-       color:white;}
+       color: orange;}
+.scrollmenu {
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    overflow-x: hidden; 
+    color: orange;
+}
+div.scrollmenu a {
+    display: inline-block;
+    color: orange;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+#skills .body {background-image: url(SF.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color:white;}
 h4 {color:white;
 text-align:center;
 font-style:italic;}
 .background {text-align:center;}
-a {color:yellow;}
 p {font-size: 20px;
 margin: 30px;
 padding: 5px;}
@@ -22,9 +44,3 @@ font-size:24px;
 color:yellow;
 padding: 15px;}
 iframe {margin: auto; display: block; border: solid yellow 3px; padding: 0; margin: auto;}
-.horizontal-list{
-    top: 0;
-    width: 100%;
-    margin; 25px;
-    list-style-type: none;
-}
